@@ -16,9 +16,9 @@ const Amount = styled.td`
   text-align: right;
 `;
 
-const Transactions = ({ transactions }) => {
+const Transactions = ({ transactions, ...rest }) => {
   return transactions ? (
-    <Table>
+    <Table {...rest}>
       <tbody>
         {transactions.map((txn, idx) => (
           <tr key={idx}>

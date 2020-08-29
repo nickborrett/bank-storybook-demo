@@ -51,13 +51,13 @@ const BankAccount = ({
   return (
     <Container>
       <Row>
-        <div>{accountName}</div>
+        <div data-testid="account-name">{accountName}</div>
         {showAccountDetails && (
-          <AccountDetails>
+          <AccountDetails data-testid="account-details">
             {accountNumber} | {sortCode}
           </AccountDetails>
         )}
-        <CurrentBalance>
+        <CurrentBalance data-testid="current-balance">
           <CurrencyFormat
             value={currentBalance}
             displayType={"text"}
@@ -70,7 +70,10 @@ const BankAccount = ({
       </Row>
       {showTransactions && (
         <Row>
-          <Transactions transactions={transactions} />
+          <Transactions
+            transactions={transactions}
+            data-testid="transactions"
+          />
         </Row>
       )}
     </Container>

@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Bank account Detailed 1`] = `
+<div
+  className="css-yei9ms"
+>
+  <div
+    className="css-1f15hg"
+  >
+    <div
+      data-testid="account-name"
+    >
+      Current account
+    </div>
+    <div
+      className="css-aw3xrg"
+      data-testid="account-details"
+    >
+      12345678
+       | 
+      112233
+    </div>
+    <div
+      className="css-ii42vf"
+      data-testid="current-balance"
+    >
+      <span>
+        £25,925.00
+      </span>
+    </div>
+  </div>
+  <div
+    className="css-1f15hg"
+  >
+    <table
+      className="css-j3s7up"
+      data-testid="transactions"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="css-1o2ogah"
+          >
+            11 Aug 2020
+          </td>
+          <td>
+            Fuel from ELLO
+          </td>
+          <td
+            className="css-889chh"
+          >
+            <span>
+              -£32.25
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="css-1o2ogah"
+          >
+            08 Aug 2020
+          </td>
+          <td>
+            Clothes from PAPAYA REPUBLIC
+          </td>
+          <td
+            className="css-889chh"
+          >
+            <span>
+              -£79.99
+            </span>
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="css-1o2ogah"
+          >
+            01 Aug 2020
+          </td>
+          <td>
+            Salary from ACME CORPORATION
+          </td>
+          <td
+            className="css-889chh"
+          >
+            <span>
+              £2,450.00
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Bank account Normal 1`] = `
+<div
+  className="css-yei9ms"
+>
+  <div
+    className="css-1f15hg"
+  >
+    <div
+      data-testid="account-name"
+    >
+      Current account
+    </div>
+    <div
+      className="css-aw3xrg"
+      data-testid="account-details"
+    >
+      12345678
+       | 
+      112233
+    </div>
+    <div
+      className="css-ii42vf"
+      data-testid="current-balance"
+    >
+      <span>
+        £25,925.00
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Bank account Summary 1`] = `
+<div
+  className="css-yei9ms"
+>
+  <div
+    className="css-1f15hg"
+  >
+    <div
+      data-testid="account-name"
+    >
+      Current account
+    </div>
+    <div
+      className="css-ii42vf"
+      data-testid="current-balance"
+    >
+      <span>
+        £25,925.00
+      </span>
+    </div>
+  </div>
+</div>
+`;
